@@ -5,6 +5,9 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 5px;
+    padding-top: 65px;
+    padding-bottom: 65px;
 }
 .half-width{
     width: 200%;
@@ -38,4 +41,13 @@ h1{
 .section-01{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    background-color: rgb(255, 251, 233);
+    
+}
+.section-02{
+    
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-color: rgb(228, 255, 255);
 }
